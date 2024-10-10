@@ -54,7 +54,7 @@ const displayLatestPosts = (lposts) => {
               <div>
               <h3 class="text-start font-extrabold">${latest.author.name}</h3>
               <p class="text-start opacity-60">${
-                latest.author?.designation ?? "no designation"
+                latest.author?.designation ?? "Unknown"
               }</p>
           </div>
     `;
